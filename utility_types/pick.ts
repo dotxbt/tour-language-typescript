@@ -1,3 +1,6 @@
+// use : Pick<Type, Keys>
+// Memilih paramter
+
 interface WargaLokal {
   nama: string;
   alamat: string;
