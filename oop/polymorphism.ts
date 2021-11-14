@@ -1,4 +1,6 @@
-abstract class Shape {}
+abstract class Shape {
+    
+}
 
 class Rectangle extends Shape {}
 
