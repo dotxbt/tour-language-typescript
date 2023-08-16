@@ -5,6 +5,13 @@ interface AnakAnjay {
   status: string;
 }
 
+type partOf = Partial<AnakAnjay>;
+
+const objPartOf: partOf = {
+  name: "Sabituddin Bigbang",
+};
+console.log("PART OF", objPartOf);
+
 function updateAnakAnjay(anjay: AnakAnjay, fields: Partial<AnakAnjay>) {
   return {
     ...anjay,

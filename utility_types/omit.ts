@@ -8,12 +8,11 @@ interface Todo {
   createdAt: number;
 }
 
-type TodoPreview = Omit<Todo, "description">;
+type TodoPreview = Omit<Todo, "description" | "createdAt">;
 
 const todo: TodoPreview = {
   title: "Clean room",
   completed: false,
-  createdAt: 1615544252770,
 };
 
 console.log(todo);
